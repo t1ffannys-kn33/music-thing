@@ -1,0 +1,12 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "cd music-client\/ \nnpm run tauri build "
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "cd music-client\/ \nnpm run tauri dev"
+    }
+  }
+}
