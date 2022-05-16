@@ -6,7 +6,8 @@
     },
     "run" : {
       "enabled" : true,
-      "script" : "cd music-client\/ \nnpm run tauri dev"
+      "script" : "cd music-client\/ \nnpm run start"
     }
-  }
+  },
+  "persistent" : true
 }

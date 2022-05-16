@@ -1,7 +1,9 @@
 import './App.css';
-import SidebarComponent from './sidebar.js'
+// eslist-disable-next-line
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import SidebarComponent from './/components/sidebar.js'
+import Albumartview from './/components/albumartview.js'
 
 function App() {
   return (
@@ -9,7 +11,7 @@ function App() {
     <SidebarComponent name="Mixes"/>
     <SidebarComponent name="Albums"/>
     <SidebarComponent name="Playlists"/>
-
+    <Albumartview name="asdasda"/>
     </div>
   );
 }
