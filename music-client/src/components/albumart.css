@@ -4,5 +4,16 @@
 }
 
 .albumartviewwrapper {
-	border: 10px black;
+	border: solid 1.5px black;
+	display:flex;
+	max-width: 290px;
+	min-height: 310px;
+	flex-direction: column;
+	transition: background-color 0.1s;
+	align-items: center;
+	
+}
+
+.albumartviewwrapper:hover {
+	background-color: var(--background-highlight);
 }

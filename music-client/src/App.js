@@ -8,10 +8,10 @@ import Albumartview from './/components/albumartview.js'
 function App() {
   return (
     <div className="App">
-    <SidebarComponent name="Mixes"/>
-    <SidebarComponent name="Albums"/>
-    <SidebarComponent name="Playlists"/>
-    <Albumartview name="asdasda"/>
+
+    <Albumartview name="asdasda" albumname="asdasd"/>
+      <Albumartview name="adssdsss"/>
+
     </div>
   );
 }
