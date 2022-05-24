@@ -3,7 +3,10 @@ function Albumartview(props) {
   return (
 	<div className="albumartviewwrapper">
 		<img src="cover.jpg" className="albumart256"/>
-		<p> {props.albumname} </p>
+		<span>
+			<p className="albumartviewtext"> {props.albumname} </p> 
+			<button/>
+		</span>
 	</div>
   );
 }

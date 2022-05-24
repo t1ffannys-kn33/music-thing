@@ -2,16 +2,21 @@
 	height: 256px;
 	width: 256px;
 }
+.albumartviewtext {
+	margin: 0;
+}
+
+
 
 .albumartviewwrapper {
 	border: solid 1.5px black;
-	display:flex;
+	display: flex;
 	max-width: 290px;
 	min-height: 310px;
 	flex-direction: column;
 	transition: background-color 0.1s;
 	align-items: center;
-	
+	justify-content: space-evenly;
 }
 
 .albumartviewwrapper:hover {

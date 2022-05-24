@@ -10,7 +10,7 @@ function App() {
     <div className="App">
 
     <Albumartview name="asdasda" albumname="asdasd"/>
-      <Albumartview name="adssdsss"/>
+    <Albumartview name="adssdsss"/>
 
     </div>
   );
