@@ -1,13 +1,12 @@
-
 {
-	"artist":"Bladee",
-	"albumName":"333",
-	"releaseYear":"2020",
-	"numSongs":16,
-	"Songs": [
+	"artist": "Bladee",
+	"albumName": "333",
+	"releaseYear": "2020",
+	"numSongs": 16,
+	"songs": [
 		{
-			"songname":"wings in motion",
-			"length":"144"
+			"songname": "wings in motion",
+			"length": "144"
 		}
 	]
 }
