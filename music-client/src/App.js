@@ -1,12 +1,43 @@
 import './App.css';
-// eslist-disable-next-line
 import ReactDOM from "react-dom/client";
 
 import SidebarComponent from './/components/sidebar.js'
 import Albumartview from './/components/albumartview.js'
-import * from './/components/staticui.js'
+import { useState } from 'react';
+
 
 function App() {
+  /*
+    nowplaying structure
+    {
+      "artist":"bladee",
+      "songName":"Be Nice 2 Me",
+      "albumName":"Icedancer",
+      "albumArtpath":""
+      playingFrom: {
+        "isFromPlaylist":true
+        "playlistID":123456,
+        "isFromAlbum":false,
+        "albumID"
+      }
+    }
+  */
+  const [nowPlaying, changeNowPlaying] = useState({
+    "artist":"",
+    "songName":"",
+    "albumName":"",
+    "albumArtpath":"",
+    playingFrom: {
+      "isFromPlaylist":false,
+      "playlistID":"",
+      "isFromAlbum":false,
+      "albumID":""
+    }
+  });
+  const [volume, changeVolume] = useState(0.0); // float 0 -> 1
+  
+
+
   return (
     <div className="App">
       <div className="staticui">
@@ -14,6 +45,8 @@ function App() {
         <div className="leftsidebar sidebar"></div>
         <div className="bottombar"></div>
       </div>
+
+
     </div>
   );
 }
